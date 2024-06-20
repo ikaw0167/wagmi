@@ -106,6 +106,8 @@ jobs:
 
       - name: Set up foundry
         uses: foundry-rs/foundry-toolchain@v1
+        with:
+          version: "nightly-5ac78a9cd4b94dc53d1fe5e0f42372b28b5a7559"
 
       - name: Run tests
         uses: nick-fields/retry@v3
